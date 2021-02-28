@@ -223,3 +223,9 @@ The CloudFormation Template deploys the following resources in your AWS Account 
 | MsTeamsChannelName | String | Name of the MS Teams Channel you want to notify | - |
 | MsTeamsUsername | String | (Optional) Used only in Lambda Function tags for now. | "" |
 | FSSSnsTopicArn | String | In the AWS console, go to **Services > CloudFormation** > `<Your-All-in-One-Stack-Name>` > **Resources** > `<Your-Storage-Stack-Name>` > **Resources**. Scroll down to locate the  **ScanResultTopic** Logical ID. Copy the **ScanResultTopic** ARN to a temporary location. Example: `arn:aws:sns:us-east-1:000000000000:FileStorageSecurity-All-In-One-Stack-StorageStack-1IDPU1PZ2W5RN-ScanResultTopic-N8DD2JH1GRKF` | - |
+
+## Credits
+
+This repository is forked from https://github.com/JustinDPerkins/FSS 
+
+Thanks [JustinDPerkins](https://github.com/JustinDPerkins)!
